@@ -1,0 +1,492 @@
+/* generale */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    min-height: 75rem;
+  background: #efefef;
+}
+
+.login-nav{
+    margin-left: 100px;
+}
+.img-fluid{
+  width: 100%;
+}
+.nav-link .dropdown-toggle
+{
+    height: 50px;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.clear
+{
+    clear: both;
+}
+
+/* nav bar */
+
+nav
+{
+    background: #006dcc !important;
+    
+}
+
+#myNavbar ul li a, .container .navbar-brand
+{
+    color: #fff;
+}
+#myNavbar ul 
+{
+    float: right;
+}
+
+.navbar-nav li a:hover, .navbar-nav  li.active a {
+    color: #006dcc !important;
+    background:#fff !important;
+}
+
+
+
+
+/* slide*/
+
+#slider {
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-caption
+{
+    color: #006dcc; 
+}
+
+.carousel-caption h3
+{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.carousel-indicators .active
+{
+    background: #006dcc ! important; 
+    
+}
+.carousel-control
+{
+    color: #006dcc ! important; 
+}
+
+.carousel-indicators li {
+    border-color: #006dcc ;
+}
+
+.bImg{
+  height: 223px;
+  overflow: hidden;
+  width: 100%;
+  
+}
+ .card-in{
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+     transition: all 0.7s ease 0s;
+ }
+
+.card-in:hover{
+
+  filter: none;
+  background-color: #fafafae1
+    
+}
+
+/* Présentation */
+
+#Accueil .container 
+{
+    background: #fafafae1 !important;
+    margin: 30px auto;
+    padding: 100px 30px;
+    
+}
+
+.image-prs img
+{
+    width: 100%;
+    height: 200px;
+}
+
+
+/* site */
+
+
+.card {
+  float: left;
+  width: 25%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card-in{
+    width: 100%;
+    margin-right: 0.6rem;
+    margin-left: 0.7rem;
+    box-shadow: 0px 1px 1px #d0cfcf;
+}
+
+.card-in .card-body {
+    flex: 1 1 auto;
+    padding: 0rem;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.card-text {
+    font-size: 85%;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    float: right;
+}
+
+.bottom span.price {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.btnLeft {
+    display: inline-block;
+    float: right;
+}
+
+.header-double-line-home {
+    clear: both;
+    width: 100%;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    background: url(../images/double-line-header-home.gif) no-repeat center center;
+    background-size: 760px;
+}
+.header-double-line-home {
+    text-align: center;
+    margin: 30px auto 7px auto;
+}
+.header-double-line-home h2 {
+    color: #7a7a7a;
+    font-size: 25px;
+    display: inline;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: 200;
+    background: #efefef;
+}
+
+.center-block
+{
+    margin-right:auto;
+    margin-left: auto;
+    
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.nav-link{
+  font-weight: bold !important;
+  padding: 10px 20px !important;
+}
+
+.active .nav-link{
+    background: #dadada;
+}
+
+.card-title{
+    font-size: 20px;
+    color: #4a4a4a;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+#site 
+{
+    margin-top: 5%;
+}
+
+/* service */
+#Service
+{
+    margin: 0;
+    padding: 0;
+}
+
+#Service .container
+{
+    background: #fafafae1 !important;
+    margin: 30px auto;
+    padding: 100px 30px;
+    
+}
+
+.feature_box
+{
+    margin-bottom: 20px;
+}
+
+.feature_box:hover
+{
+    color: #006dcc;
+}
+
+/* partenaire */
+
+#partenaire
+{
+    margin: 0;
+    padding: 0;
+}
+
+#partenaire .container
+{
+    margin: 30px auto;
+    padding: 100px 30px;
+}
+
+/* contact */
+#contact
+{
+    margin: 0;
+    padding: 0;
+}
+
+#contact .container
+{
+    background: #fafafae1 !important;
+    margin: 30px auto;
+    padding: 100px 30px;
+    
+}
+
+#contact-form {
+    font-size: 20px;
+    background: #fff !important;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.vert {
+    color: #006dcc;
+}
+
+#contact-form input[type=submit] {
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.button1 {
+    border: 1px solid #ddd;
+    background: #006dcc;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3 ease-in 0s;
+}
+
+.button1:hover
+{
+        background: #ffa500; 
+}
+
+/*galerie */
+#galerie
+{
+    margin: 0;
+    padding: 0;
+}
+
+#galerie .container
+{
+    margin: 30px auto;
+    padding: 100px 30px;
+}
+
+
+
+/* footer */
+
+footer {
+    background: #444;
+    margin-top: 20px; 
+    padding: 70px 0;
+}
+
+footer h2
+{
+    color: #ddd;
+    text-align: center;
+}
+
+footer p {
+    padding: 20px 0;
+    text-align: center;
+    line-height: 20px;
+    color: #777;
+}
+
+footer .fa:hover {
+    font-size: 27px;
+    color: #006dcc;
+    background: none;
+}
+footer .fa {
+    text-align: right;
+    font-size: 25px;
+    margin: 50px;
+    color: #fff;
+    height: 30px;
+    float: right;
+    background: #006dcc;
+}
+
+/***login**/
+
+#form {
+    display: block;
+    padding-bottom: 185px;
+    padding-top: 185px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.comments {
+    color: #FE390F;
+}
+
+
+.dropdown-menu{
+    background: #006dcc;
+    align-items: center;
+}
+.dropdown-item
+{
+    text-align: center;
+
+}
+
+
+
+.signup-form {
+
+}
+
+.login-form h2, .signup-form h2 {
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+
+.login-form form input, .signup-form form input {
+    background: #F0F0E9;
+    border: medium none;
+    color: #696763;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.login-form form span{
+    line-height: 25px;
+}
+
+.login-form form span input {
+    width: 15px;
+    float: left;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.login-form form button {
+    margin-top: 23px;
+}
+
+.login-form form button, .signup-form form button {
+    background: #006dcc;
+    border: medium none;
+    border-radius: 0;
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 25px;
+}
+
+.login-form label{
+
+}
+
+
+.login-form label input {
+    border: medium none;
+    display: inline-block;
+    height: 0;
+    margin-bottom: 0;
+    outline: medium none;
+    padding-left: 0;
+}
+
+
+.or{
+    background: #006dcc;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 75px;
+    text-align: center;
+    width: 50px;
+}
+
+/*** details **/
+#details .container
+{
+    margin: 30px auto;
+    padding: 100px 30px;
+}
+
+/** panier **/
